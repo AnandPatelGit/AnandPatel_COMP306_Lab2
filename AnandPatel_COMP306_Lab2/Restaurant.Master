@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Restaurant.master.cs" Inherits="AnandPatel_COMP306_Lab2.Restaurant" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+          
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+          <link rel="stylesheet" href="~/StyleSheet.css" type="text/css" />
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            color: #039BE5;
+        }
+        .html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+    </style>
+</head>
+<body bgcolor="#FFFFE0" >
+    <form id="form1" runat="server">
+        <div cssClass="content">
+            <h2><b>Foodies Den</b>!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="javascript:__doPostBack('ctl00$LinkButton1','')"></h2><h3><span class="auto-style1">Home</span></a>&nbsp;&nbsp;&nbsp; <a href="javascript:__doPostBack('ctl00$LinkButton1','')"><span class="auto-style1">About Us&nbsp;&nbsp; Contact Us</span></a></h3>
+            <asp:ContentPlaceHolder ID="body" runat="server">
+                           </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
