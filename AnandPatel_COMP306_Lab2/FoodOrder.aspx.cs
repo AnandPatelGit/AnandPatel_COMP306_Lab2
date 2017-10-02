@@ -89,6 +89,7 @@ namespace AnandPatel_COMP306_Lab2
             }
             catch (Exception ex) {
                 Response.Write(ex.StackTrace);
+
             }
         }
     }
